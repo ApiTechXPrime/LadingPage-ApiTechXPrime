@@ -228,3 +228,63 @@ a {
         background-position: center;
     }
 }
+/*============= Services SECTION ==============*/
+.Services {
+    margin: 5em 0;
+}
+.Services span{
+    color:#0009a1
+}
+.Services h1{
+    font-size: var(--biggest-font-size);
+    text-align: center;
+}
+.Services h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4.5em;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.box h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.box p {
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 606px) {
+    .box {
+        width: 100%;
+    }
+}
