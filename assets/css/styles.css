@@ -154,7 +154,7 @@ a {
 /*=============== HOME ===============*/
 .home {
     position: relative;
-    min-height: 65vh;
+    min-height: 70vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/primerbanner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
