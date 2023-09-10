@@ -109,29 +109,6 @@ a {
     color: var(--text-color);
 }
 
-.nav_button {
-    padding: 10px 20px;
-    background-color:#4e2823;
-    color: #fff;
-    border-radius: 20px;
-}
-
-.nav_button:hover {
-    background-color:#32120E;
-}
-
-@media screen and (max-width: 767px) {
-    .nav_button {
-        background-color: transparent;
-        border: none;
-        color:black;
-    }
-
-    .nav_button.text-only {
-        background-color: transparent;
-        color: #4e2823;
-    }
-}
 
 .nav__link:hover{
     color:#0009a1;
