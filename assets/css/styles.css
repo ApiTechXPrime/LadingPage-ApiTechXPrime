@@ -131,7 +131,7 @@ a {
 /*=============== HOME ===============*/
 .home {
     position: relative;
-    min-height: 70vh;
+    min-height: 120vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/primerbanner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -391,7 +391,7 @@ a {
 .Contactus {
     display: flex;
     align-items: center;
-    min-height: 71vh;
+    min-height: 150vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/segundobanner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
