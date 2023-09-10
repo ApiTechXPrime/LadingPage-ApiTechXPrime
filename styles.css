@@ -33,3 +33,53 @@ body {
     color: var(--text-color);
     height: 100%;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*===========Reusable CSS Classes=============*/
+.container {
+    max-width: 1024px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*=============== HEADER & NAV ===============*/
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #72B4EF;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    transition: 0.2s;
+    padding: 10px 10%;
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo,
+.nav__toggle {
+    color: var(--text-color);
+    display: inline-flex;
+}
+
+.nav__logo {
+    font-weight: 700;
+}
+
+.nav__toggle {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
