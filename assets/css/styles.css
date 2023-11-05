@@ -130,6 +130,7 @@ a {
 }
 /*=============== HOME ===============*/
 .home {
+    display: flex;
     position: relative;
     min-height: 120vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/primerbanner.jpg) no-repeat;
@@ -138,11 +139,13 @@ a {
 }
 
 .home__container {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    max-width: 30%;
+    padding-top: 15%;
+    padding-left: 10%;
+    max-width: 45%;
+}
+
+.home__container__web{
+    padding-left: 20%;
 }
 
 .home__data {
@@ -155,12 +158,20 @@ a {
     line-height: 2.7rem;
 }
 
+.home__container__web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home__description span{
     color: #0009a1;
 }
 
 .home__data p {
     font-size: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 15px;
 }
 
 .home__button {
@@ -174,6 +185,21 @@ a {
 }
 
 .home__button:hover {
+    box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
+}
+
+.home__button__web{
+    font-size: xx-large;
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: #1E88E5;
+    color: black;
+    padding: .80rem 1.5rem;
+    border-radius: 3rem;
+    transition: .4s;
+}
+
+.home__button__web:hover{
     box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
 }
 
