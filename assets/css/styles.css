@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
-
 :root {
     --header-height: 3.5rem;
     --first-color: hsl(208, 80%, 69%);
@@ -10,9 +9,11 @@
     --smaller-font-size: .75rem;
 }
 
+
 /*Responsive typography*/
+
 @media screen and (min-width: 1024px) {
-    :root {
+     :root {
         --biggest-font-size: 3.5rem;
         --normal-font-size: 1rem;
         --smaller-font-size: .813rem;
@@ -42,14 +43,18 @@ a {
     text-decoration: none;
 }
 
+
 /*===========Reusable CSS Classes=============*/
+
 .container {
     max-width: 1024px;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
+
 /*=============== HEADER & NAV ===============*/
+
 .header {
     position: fixed;
     width: 100%;
@@ -105,13 +110,19 @@ a {
     row-gap: 2rem;
 }
 
+.nav__list a:hover {
+    background-color: #F9F9FF;
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+
 .nav__link {
     color: var(--text-color);
 }
 
-
-.nav__link:hover{
-    color:#0009a1;
+.nav__link:hover {
+    color: #0009a1;
 }
 
 .nav__close {
@@ -125,14 +136,18 @@ a {
 
 
 /* Show menu */
+
 .show-menu {
     top: 0;
 }
+
+
 /*=============== HOME ===============*/
+
 .home {
     display: flex;
     position: relative;
-    min-height: 120vh;
+    height: 100vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/primerbanner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,7 +159,7 @@ a {
     max-width: 45%;
 }
 
-.home__container__web{
+.home__container__web {
     padding-left: 20%;
 }
 
@@ -158,13 +173,23 @@ a {
     line-height: 2.7rem;
 }
 
-.home__container__web{
+.home__container__web {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home__description span{
+.home__data a {
+    color: white;
+}
+
+.home__data a:hover {
+    background-color: #71b5f1;
+    color: black;
+    border: 3px solid blue;
+}
+
+.home__description span {
     color: #0009a1;
 }
 
@@ -188,7 +213,7 @@ a {
     box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
 }
 
-.home__button__web{
+.home__button__web {
     font-size: xx-large;
     margin-top: 2rem;
     display: inline-block;
@@ -199,7 +224,7 @@ a {
     transition: .4s;
 }
 
-.home__button__web:hover{
+.home__button__web:hover {
     box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
 }
 
@@ -219,29 +244,35 @@ a {
         transform: translate(-50%, -50%);
         max-width: 100%;
     }
-    .home__data .home__description{
+    .home__data .home__description {
         font-size: 2.5rem;
     }
-    .home__data p{
+    .home__data p {
         font-size: 1rem;
     }
-    .home{
+    .home {
         background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/primerbanner.jpg);
         background-size: cover;
         background-position: center;
     }
 }
+
+
 /*============= Services SECTION ==============*/
+
 .Services {
     margin: 5em 0;
 }
-.Services span{
-    color:#0009a1
+
+.Services span {
+    color: #0009a1
 }
-.Services h1{
+
+.Services h1 {
     font-size: var(--biggest-font-size);
     text-align: center;
 }
+
 .Services h3 {
     font-size: 1.5rem;
     text-align: center;
@@ -284,13 +315,12 @@ a {
     margin-bottom: 10px;
 }
 
-
-
 @media (max-width: 606px) {
     .box {
         width: 100%;
     }
 }
+
 
 /*======COMMENTS SECTION===========*/
 
@@ -300,15 +330,16 @@ a {
     background-color: #1E88E5;
 }
 
-.Comments h1{
+.Comments h1 {
     font-size: var(--biggest-font-size);
     text-align: center;
-    color:white;
+    color: white;
 }
+
 .Comments h3 {
     font-size: 1.5rem;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .Comments-container {
@@ -363,16 +394,18 @@ a {
     }
 }
 
+
 /*=========ABOUT US SECTION =============*/
 
 .Aboutus {
     margin: 5em 0;
 }
 
-.Aboutus h1{
+.Aboutus h1 {
     font-size: var(--biggest-font-size);
     text-align: center;
 }
+
 .Aboutus h3 {
     font-size: 1.5rem;
     text-align: center;
@@ -385,7 +418,7 @@ a {
     margin-top: 2em;
 }
 
-.Aboutus-box img{
+.Aboutus-box img {
     width: 150px;
     height: auto;
     margin-bottom: 10px;
@@ -402,7 +435,7 @@ a {
     text-align: center;
 }
 
-.carrera{
+.carrera {
     font-size: 13px;
     color: #636363;
 }
@@ -413,11 +446,13 @@ a {
     }
 }
 
+
 /*======CONTACTO SECTION=======*/
+
 .Contactus {
     display: flex;
     align-items: center;
-    min-height: 150vh;
+    height: 100vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/segundobanner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -427,7 +462,7 @@ a {
     width: 500px;
     height: 600px;
     display: flex;
-    top: 178px;
+    top: 40px;
     right: 5%;
     position: relative;
     flex-direction: column;
@@ -438,13 +473,13 @@ a {
     margin-left: auto;
 }
 
-.tituloFormulario{
-    color:#5D5A88;
+.tituloFormulario {
+    color: #5D5A88;
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
-.descripcionFormulario{
+.descripcionFormulario {
     margin-bottom: 1em;
 }
 
@@ -455,7 +490,7 @@ a {
     background-color: #F9F9FF;
     margin-top: 10px;
     font-family: var(--body-font);
-    color:#ADABC3;
+    color: #ADABC3;
 }
 
 .btn_EnviarFormulario {
@@ -481,28 +516,32 @@ a {
     height: 120px;
     padding-top: 10px;
 }
+
 @media (max-width: 768px) {
-    .formulario_contacto{
+    .formulario_contacto {
         width: 300px;
         height: 400px;
         top: 50%;
         right: 23%;
     }
 }
+
 @media (max-width: 1500px) {
-    .formulario_contacto{
+    .formulario_contacto {
         width: 400px;
         height: 500px;
         top: 178px;
         right: 5%;
     }
 }
+
 @media (max-width: 1400px) {
-    .formulario_contacto{
+    .formulario_contacto {
         top: 50%;
         right: 15%;
     }
 }
+
 
 /*=== FOOTER SECTION ====*/
 
@@ -512,6 +551,22 @@ a {
     padding: 30px 0;
 }
 
+.footer-section {
+    flex: 1;
+    margin-top: -19px;
+    padding: 15px;
+    color: black;
+}
+
+.footer-section a:hover {
+    color: #6b726b;
+    color: black;
+}
+
+.footer-section p {
+    margin-top: 7%;
+}
+
 .container-body {
     display: flex;
     flex-direction: column;
@@ -519,7 +574,8 @@ a {
 }
 
 .logo-image-footer {
-    width: 150px; /* Ajusta el tamaño del logo según tus preferencias */
+    width: 150px;
+    /* Ajusta el tamaño del logo según tus preferencias */
 }
 
 .column2,
@@ -529,14 +585,14 @@ a {
     margin-bottom: 15px;
 }
 
-.column2 label{
+.column2 label {
     color: black;
 }
 
-
 .column4 {
     max-width: 400px;
-    display: inline-block;;
+    display: inline-block;
+    ;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -554,7 +610,7 @@ a {
     margin-top: 20px;
 }
 
-.social-download > div {
+.social-download>div {
     margin: 10px;
 }
 
@@ -579,6 +635,7 @@ a {
     color: black;
     text-decoration: none;
 }
+
 .nets li {
     display: inline-block;
     margin: 0 10px;
@@ -592,6 +649,7 @@ a {
     color: black;
     font-weight: bold;
 }
+
 .container-body {
     flex-direction: row;
 }
@@ -644,30 +702,35 @@ a {
     margin-left: 10px;
 }
 
+
 /*=============== BREAKPOINTS ===============*/
+
+
 /* For small devices */
+
 @media screen and (max-width: 320px) {
     .home {
         padding-top: 7rem;
     }
 }
 
+
 /* For medium devices */
+
 @media screen and (min-width: 767px) {
     .nav {
         height: calc(var(--header-height) + 1.5rem);
     }
-
     .nav__toggle,
     .nav__close {
         display: none;
     }
-
     .nav__list {
         flex-direction: row;
         column-gap: 3.5rem;
     }
 }
+
 
 /* For large devices */
 
@@ -678,22 +741,24 @@ a {
     }
 }
 
+
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+
 @media screen and (min-width: 2048px) {
     body {
         zoom: 1.7;
     }
-
     .home {
         height: initial;
         row-gap: 4rem;
     }
 }
 
+
 /* For 4K resolutions (3840 x 2160, 4096 x 2160) */
+
 @media screen and (min-width: 3840px) {
     body {
         zoom: 3.1;
     }
 }
-
