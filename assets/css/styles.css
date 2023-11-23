@@ -452,21 +452,22 @@ a {
 .Contactus {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     background: url(https://raw.githubusercontent.com/ApiTechXPrime/LadingPage-ApiTechXPrime/master/assets/img/segundobanner.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .formulario_Contactus {
-    width: 500px;
-    height: 600px;
+    width: 560px;
+    height: 580px;
     display: flex;
-    top: 40px;
-    right: 5%;
+    top: 30px;
+    right: 10%;
     position: relative;
     flex-direction: column;
     padding: 4vh;
+    margin: auto;
     background-color: white;
     border-radius: 20px;
     justify-content: center;
